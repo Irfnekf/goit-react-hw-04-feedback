@@ -25,8 +25,8 @@ export const App = () => {
     return total ? Math.round((good / total) * 100) : 0;
   };
 
-  const { good, neutral, bad } = state;
   const positivePersent = positiveFeedback();
+  const { good, neutral, bad } = state;
 
   return (
     <div>
